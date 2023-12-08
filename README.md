@@ -14,8 +14,12 @@ Once you are able to authenticate to AWS and Confluent, then navigate to the ter
 
 After your resources come up, and you SSH into your EC2 instance, you wil need ot install Golang and install make. Then git clone this repo, cd opentelemetry-collector-contrib, and make otelcontribcol. 
 
-
- 
+# TO DOs
+ ----------------------------------------------------
+1. centralize all outputs in outputs.tf 
+2. bake in automation to ssh into VM and install GO, git, make and then git clone the NR repo and build the otel collector. 
+3. automation to fill out the .yaml file with the correct values (from the terraform output?)
+4. automation to run the collector with the .yaml file
 
 
 
