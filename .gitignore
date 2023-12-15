@@ -19,3 +19,4 @@ terraform_dir/registry.terraform.io/*
 terraform_dir/graph*
 terraform_dir/internal_only
 terraform_dir/nr.yaml
+terraform_dir/dashboards/copy-cc-dashboard.json
