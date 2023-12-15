@@ -1,5 +1,4 @@
 {
-  "dashboard": {
     "name": "Confluent Cloud",
     "permissions": "PUBLIC_READ_WRITE",
     "description": null,
@@ -633,4 +632,3 @@
       }
     ]
   }
-}
