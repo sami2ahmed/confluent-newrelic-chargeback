@@ -90,6 +90,10 @@ service:
      exporters: [otlp]
 ```
 
+## New relic dashboard file
+Your new relic dashboard is created via the `cc-dashboard.json` You will need to replace the accountid i.e. `3974333` with your own.
+
+
 ## EC2 instance instructions 
 1. after spinning up the EC2, ssh in, navigate to the dir where AWS downloaded the pem file to (Downloads dir by default), follow the instructions on AWS console i.e. chmod the file then you can ssh in from Downloads:
 
